@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: crimson;
+    background-color: #e2591e;
 }
 
 #gral{
@@ -17,7 +17,6 @@ body{
 
 #presentacion{
     background-color: rgb(233, 112, 112);
-    
     padding: 15px;
     margin: 10px;
     border-radius: 10px;
@@ -35,6 +34,8 @@ body{
 td{
     text-align: center;
     background-color: rgb(230, 172, 172); 
+    padding: 20px;
+    
 }
 
 #exp{
@@ -48,5 +49,21 @@ td{
 }
 
 #experiencias{
-    position: center;
+    margin-left: 85px;
+}
+
+#curso{
+    float: left;
+    display: inline;
+    width: auto;
+    margin: auto;
+    text-align: left;
+}
+
+#conocimiento{
+    float: right;
+    display: inline;
+    width: auto;
+    margin: auto;
+    text-align: left;
 }
