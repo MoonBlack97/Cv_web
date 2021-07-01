@@ -52,18 +52,26 @@ td{
     margin-left: 85px;
 }
 
-#curso{
-    float: left;
-    display: inline;
-    width: auto;
-    margin: auto;
+#cursos{
+    
+    display: block;
     text-align: left;
+    width: 500px;
+    float: left;
+    padding: inherit;
+    padding-bottom: 2px;
 }
 
 #conocimiento{
+    display: block;
+    width: 500px;
     float: right;
-    display: inline;
-    width: auto;
-    margin: auto;
-    text-align: left;
+    padding: inherit;
+}
+
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 40px;
 }
