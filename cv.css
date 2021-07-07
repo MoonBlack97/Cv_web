@@ -1,47 +1,46 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: 'Tourney', cursive;
 }
 
 body{
-    background-color: #e2591e;
-}
-
-#gral{
-    width: 1730px;
-    height: 2000px;
-    margin: 2em;
-    padding: 3em;
-    background-color: rgb(228, 127, 147);
+    background-color: #DEAEAD ;
 }
 
 #presentacion{
-    background-color: rgb(233, 112, 112);
-    padding: 15px;
-    margin: 10px;
-    border-radius: 10px;
+    background-color: #ADDDDE;
+    border-radius: 40px;
+    width: 98%;
     text-align: center;
+    margin-left: 1%;
     
 }
 
 #sobre_mi{
-    background-color: rgb(233, 112, 112);
     padding: 3%;
     border-radius: 10px;
     margin: 10px;
 }
 
+table{
+    border: #2D4849 solid;
+    background-color: #ADDDDE;
+}
+
 td{
     text-align: center;
-    background-color: rgb(230, 172, 172); 
     padding: 20px;
+    border: #2D4849 solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
     
 }
 
 #exp{
     text-align: center;
-    font-style: oblique;
     font-size: 30px;
+    margin: 1%
 }
 
 #cono{
@@ -57,21 +56,45 @@ td{
     display: block;
     text-align: left;
     width: 500px;
-    float: left;
+    margin-right: 5%;
+    float: right;
     padding: inherit;
-    padding-bottom: 2px;
+    border: #2D4849 solid;
 }
 
 #conocimiento{
     display: block;
     width: 500px;
-    float: right;
+    margin-left: 5%;
+    float: left;
     padding: inherit;
+    border: #2D4849 solid;
 }
 
-h1{
-    font-size: 45px;
-}
 h2{
-    font-size: 40px;
+    font-size: 45px;
+    
+    
+}
+
+li{
+    padding-bottom: 15px;
+}
+
+#cont{
+    border: black solid;
+    width: 10%;
+}
+
+#caja_exp{
+    margin-left: 100px;
+}
+
+nav{
+    background-color: #2D4849;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
 }

@@ -6,32 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a4a6b4d9ac.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="cv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Tourney:wght@600&display=swap" rel="stylesheet">
     <title>Mi curriculum web</title>
 </head>
 
 <body>
-    <div id="gral">
+    <nav>
+        <a href=#sobre_mi>Sobre mi</a>
+        <a href=#experiencias>Experiencias</a>
+        <a href=#conocimientos>Conocimientos y Cursos</a>
+        <a href=#cont>Contacto</a>
+    </nav>
         <div id="presentacion" >
             <div>
-            <h1>Hola, mi nombre es <b>Luciana Jimena Beatriz Garcia</b></h1>
+            <h1 style="font-size: 50px;">Hola, mi nombre es <b>Luciana Jimena Beatriz Garcia</b></h1>
             <p style="font-size: larger;">Muy largo el nombre completo, lo sé, pero a mi madre les gustaban <br>y cada uno tiene sus significados.</p>
-            <div style="float: right;">
-                <a href="https://www.linkedin.com/in/luciana-jimena-beatriz-garcia-5827141b1/"><i class="fab fa-linkedin" style="font-size: 50px; color: #45E21E;"></i></a>
+            <div style="float: right; margin-top: 4%; margin-right: 1%;">
+                <a href="https://www.linkedin.com/in/luciana-jimena-beatriz-garcia-5827141b1/"><i class="fab fa-linkedin" style="font-size: 55px; color: #2D4849;"></i></a>
                 <br>
                 <br>
                 <br>
                 <br>
                 <br>
-                <br>
-                <br>
-                <br>
-                <br>
+               
                 
-                <i class="fas fa-at" style="font-size: 50px; color: #45E21E;"></i><br>
+                
+                <a href=#cont><i class="fas fa-at" style="font-size: 55px; color:#2D4849;"></i></a><br>
             </div>
-            <img src="yo.jpg" alt="Foto" width="200"
+            <img src="yo.jpg" alt="Foto" width="250"
             style="border-radius: 50%;
             float: right;
+            margin-top: 10px;
             margin-left: 40px; 
             margin-right: 20px; 
             padding: 12px;">
@@ -54,7 +61,7 @@
                         </td>
                         <td>
                             
-                            Me orienté en <b>Informática Profesional y Personal.</b><br> 
+                            Me orienté en Informática Profesional y Personal.<br> 
                             Costó mucho salir adelante por situaciones de todo tipos, pero nunca me rendí y pude finalizarlo.<br>
                             No me gusta dejar las cosas por la mitad o rendirme, siempre miro para adelante y avanzo pase lo que pase.<br>
                             
@@ -66,8 +73,11 @@
         </div>
 
             <br>
-            <h2>Experiencias</h2>
-            <div>
+            <br>
+            <h2 style="text-align: center;">Experiencias</h2>
+            <br>
+            <br>
+            <div id="caja_exp">
                 <table id="experiencias">
                     <tr>
                         <th>- Reparación de pc</th>
@@ -119,24 +129,11 @@
 
             <br>
             <br>
-            <br>
-            <br>
-            <div id="cursos">
-                <h2>Cursos realizados</h2>
-               
-                    <ul>
-                        <li>Fibra Optica en Fundación Telefónica</li>
-                        <li>Marketing Digital en Conecta Empleo Telefónica</li>
-                        <li>Desarrollo web en Fundación Mediapila con KuyKuy(En curso)</li>
-                        <li>Seguridad Informática en Cisco</li>
-                        <li>Tester de Software QA en Edutin Academy</li>
-                        <li>Ciberseguridad en Eckoparty Hackademy</li>
-                    </ul>
-            </div>
-             
-            <div id="conocimiento" >
+            
+            <div>
+                <div id="conocimiento" >
                     <h2>Conocimientos</h2>
-
+                    <br>
                     <ul>
                         <li>C++</li>
                         <li>C#</li>
@@ -151,8 +148,48 @@
                         <li>Paquete Office</li>
                             
                     </ul>
-            </div> 
+                </div> 
             
-    </div>
+
+                <div id="cursos">
+                    <h2>Cursos realizados</h2>
+                
+                        <ul>
+                            <li>Fibra Optica en Fundación Telefónica(2018)</li>
+                            <li>Seguridad Informática en Cisco(2020)</li>
+                            <li>Marketing Digital en Conecta Empleo Telefónica(2020)</li>
+                            <li>Tester de Software Profesional en Edutin Academy(2021)</li>
+                            <li>Desarrollo web en Fundación Mediapila con KuyKuy(En curso)</li>
+                            <li>Ciberseguridad en Eckoparty Hackademy(En curso)</li>
+                        </ul>
+                </div>
+            </div>
+
+
+            <div id="cajaF">
+
+            
+            <div id="cont">
+                <h1>Contactame :D</h1>
+                <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                            </div>
+                            <div class="col">
+                                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+                </form>
+            </div>
+
+        </div>
+    
 </body>
 </html>
