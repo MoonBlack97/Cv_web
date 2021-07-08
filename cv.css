@@ -24,7 +24,6 @@ body{
 }
 
 table{
-    
     border-radius: 35px;
     background-color: #ADDDDE;
 }
@@ -33,21 +32,16 @@ td{
     text-align: center;
     padding: 20px;
     border: #2D4849 solid;
+    border-radius: 35px; 
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
-    border-radius: 35px;
-    
+     
 }
 
-#exp{
+#frase{
     text-align: center;
     font-size: 30px;
     margin: 4%
-
-}
-
-#cono{
-    text-align: center;
 }
 
 #experiencias{
@@ -84,8 +78,6 @@ td{
 
 h2{
     font-size: 45px;
-    
-    
 }
 
 li{
